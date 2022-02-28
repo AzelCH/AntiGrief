@@ -1,0 +1,10 @@
+name: AntiGrief
+main: AzelCH\AntiGrief
+api: 4.0.0
+version: 1.0.5
+author: AzelCH
+
+permissions:
+ antigrief.bypass:
+  description: AntiGrief Bypass
+  default: op
