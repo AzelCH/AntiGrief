@@ -9,6 +9,9 @@ Protect your server from griefer
 - Anti Drop Items
 - Can enable/disable 
 
+# Permission
+```antigrief.bypass``` AntiGrief Bypass
+
 # Config
 ```
 #AntiGrief Settings
