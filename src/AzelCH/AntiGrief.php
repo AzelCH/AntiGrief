@@ -56,7 +56,6 @@ class AntiGrief extends PluginBase implements Listener{
   
   //onExplode
   public function onExplode(EntityExplodeEvent $event){
-    if(!$player->hasPermission("antigrief.bypass")){
       if($this->getConfig()->get("enable-antiexplode") === true){
         $event->cancel();
       }
