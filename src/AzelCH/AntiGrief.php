@@ -60,5 +60,6 @@ class AntiGrief extends PluginBase implements Listener{
         $event->cancel();
       }
     }
+
   }
 }
