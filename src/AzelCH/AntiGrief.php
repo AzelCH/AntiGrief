@@ -59,7 +59,6 @@ class AntiGrief extends PluginBase implements Listener{
       if($this->getConfig()->get("enable-antiexplode") === true){
         $event->cancel();
       }
-    }
 
   }
 }
